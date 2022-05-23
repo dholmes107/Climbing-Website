@@ -1,0 +1,16 @@
+#backgroundhome{
+  background-color: #878787;  
+  background-image: url('.//imgs/homeclimb.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#h1position{
+  text-align: center;
+  font-size: 75px;
+}
+
+.climbtext{
+  font-family: 'Quicksand', sans-serif;
+}
+
