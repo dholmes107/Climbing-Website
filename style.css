@@ -1,3 +1,4 @@
+/*Global CSS  */
 *{
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
@@ -8,7 +9,11 @@ body{
   margin: 0;
   padding: 0;
 }
+/*Global CSS  */
 
+
+
+/*Nav Bar  */
 .navbar{
   display:flex;
   justify-content: space-between;
@@ -43,9 +48,10 @@ body{
 .navbar-links li:hover{
   background-color: #555;
 }
+/*Nav Bar  */
 
 
-
+/* Index.html CSS  */
 #backgroundhome{
   background-color: #878787;  
   background-image: url('.//imgs/homeclimb.jpg');
@@ -54,11 +60,28 @@ body{
 }
 
 #h1position{
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 75px;
 }
 
 .climbtext{
   font-family: 'Quicksand', sans-serif;
 }
+/* Index.html CSS  */
 
+
+/* bouldering.html CSS  */
+#backgroundbouldering{
+  background-color: #878787;  
+  background-image: url('.//imgs/boulder.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bouldertext{
+  font-family: 'Quicksand', sans-serif;
+  text-align: left;
+  font-size: 21px;
+}
