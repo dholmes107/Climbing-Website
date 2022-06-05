@@ -83,6 +83,13 @@ body{
 .bouldertext{
   font-family: 'Quicksand', sans-serif;
   text-align: left;
-  font-size: 21px;
+  font-size: 40px;
   font-weight: bold;
+}
+
+.bouldergear{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 40px;
 }
