@@ -93,3 +93,17 @@ body{
   font-weight: bold;
   margin: 40px;
 }
+
+.boulderbutton{
+  display: block;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 40px;
+}
+
+.hiddenfact{
+display: none;
+align-items: center;
+margin: auto;
+}

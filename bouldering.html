@@ -12,8 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Quicksand:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<body id="backgroundbouldering"
-  title="A climber stays on the ground with a crash pad while watching someone climb a 30-foot tall outdoor boulder in Bishop, CA.">
+<body id="backgroundbouldering">
 
   <nav class="navbar">
     <div class="climb-title">Climbing Above</div>
@@ -27,12 +26,15 @@
   </nav>
 
   <p class="bouldertext">Bouldering is rock climbing close to the ground.</p>
-  <p class=bouldertext>You don't use a rope or harness.</p>
-  <p class=bouldertext>You just need three things:</p>
-  <p class=bouldergear>Climbing shoes</p>
-  <p class=bouldergear>Chalk</p>
-  <p class=bouldergear>Crash pad</p>
-
+  <p class="bouldertext">You don't use a rope or harness.</p>
+  <p class="bouldertext">You just need three things:</p>
+  <div>
+    <button class="boulderbutton" onclick="myFunction()">Climbing shoes</button>
+    <button class="boulderbutton">Chalk</button>
+    <button class="boulderbutton">Crash pad</button>
+    <p class="bouldertext" id="demo" </p>
+  </div>
+  <!-- work on p class= tag in order to move onclick text to display in center of page. Perhaps make a new class altogether to center things?  -->
 
   <script src="script.js"></script>
 </body>
