@@ -102,8 +102,11 @@ body{
   margin: 40px;
 }
 
-.hiddenfact{
-display: none;
-align-items: center;
-margin: auto;
+
+.boulderfacts{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  
 }
