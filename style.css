@@ -63,7 +63,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 75px;
+  font-size: 90px;
 }
 
 .climbtext{
@@ -108,5 +108,16 @@ body{
   text-align: center;
   font-size: 40px;
   font-weight: bold;
-  
 }
+/* bouldering.html CSS  */
+
+
+/* holds.html CSS  */
+#backgroundholds{
+  background-color: #878787;  
+  background-image: url('.//imgs/boulders.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
