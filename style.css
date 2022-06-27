@@ -1,5 +1,6 @@
 /*Global CSS  */
 *{
+
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
 }
@@ -52,49 +53,49 @@ body{
 
 
 /* Index.html CSS  */
-#backgroundhome{
+#background-home{
   background-color: #878787;  
   background-image: url('.//imgs/homeclimb.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#h1position{
+.h1-position{
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 90px;
 }
 
-.climbtext{
+.climb-text{
   font-family: 'Quicksand', sans-serif;
 }
 /* Index.html CSS  */
 
 
 /* bouldering.html CSS  */
-#backgroundbouldering{
+#background-bouldering{
   background-color: #878787;  
   background-image: url('.//imgs/boulder.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.bouldertext{
+.boulder-text{
   font-family: 'Quicksand', sans-serif;
   text-align: left;
   font-size: 40px;
   font-weight: bold;
 }
 
-.bouldergear{
+.boulder-gear{
   font-family: 'Quicksand', sans-serif;
   font-size: 40px;
   font-weight: bold;
   margin: 40px;
 }
 
-.boulderbutton{
+.boulder-button{
   display: block;
   font-family: 'Quicksand', sans-serif;
   font-size: 40px;
@@ -103,7 +104,7 @@ body{
 }
 
 
-.boulderfacts{
+.boulder-facts{
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   font-size: 40px;
@@ -113,11 +114,38 @@ body{
 
 
 /* holds.html CSS  */
-#backgroundholds{
+#background-holds{
   background-color: #878787;  
-  background-image: url('.//imgs/boulders.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 
+.holds-text{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+  .ul-holds {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+  }
+
+.list-holds{
+    list-style: none;
+    padding: 12px;
+}
+
+.climb-hold-images {
+    width: 100%;
+    box-shadow: 5px 5px 5px transparent;
+    transition: all 0.5s;
+    border: solid 2px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
