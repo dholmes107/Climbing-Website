@@ -14,6 +14,7 @@ body{
 
 
 
+
 /*Nav Bar  */
 .navbar{
   display:flex;
@@ -52,6 +53,8 @@ body{
 /*Nav Bar  */
 
 
+
+
 /* Index.html CSS  */
 #background-home{
   background-color: #878787;  
@@ -71,6 +74,8 @@ body{
   font-family: 'Quicksand', sans-serif;
 }
 /* Index.html CSS  */
+
+
 
 
 /* bouldering.html CSS  */
@@ -113,6 +118,8 @@ body{
 /* bouldering.html CSS  */
 
 
+
+
 /* holds.html CSS  */
 #background-holds{
   background-color: #878787;  
@@ -129,12 +136,9 @@ body{
 }
 
   .ul-holds {
-    width: 100%;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    
   }
 
 .list-holds{
@@ -143,9 +147,12 @@ body{
 }
 
 .climb-hold-images {
-    width: 100%;
+    width: 75%;
     box-shadow: 5px 5px 5px transparent;
     transition: all 0.5s;
     border: solid 2px rgba(0, 0, 0, 0.4);
     border-radius: 5px;
 }
+/* holds.html CSS  */
+
+
