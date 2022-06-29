@@ -1,6 +1,5 @@
 /*Global CSS  */
 *{
-
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
 }
@@ -9,6 +8,7 @@
 body{
   margin: 0;
   padding: 0;
+  width:100%;
 }
 /*Global CSS  */
 
@@ -70,9 +70,6 @@ body{
   font-size: 90px;
 }
 
-.climb-text{
-  font-family: 'Quicksand', sans-serif;
-}
 /* Index.html CSS  */
 
 
@@ -87,14 +84,12 @@ body{
 }
 
 .boulder-text{
-  font-family: 'Quicksand', sans-serif;
   text-align: left;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .boulder-gear{
-  font-family: 'Quicksand', sans-serif;
   font-size: 40px;
   font-weight: bold;
   margin: 40px;
@@ -102,15 +97,13 @@ body{
 
 .boulder-button{
   display: block;
-  font-family: 'Quicksand', sans-serif;
   font-size: 40px;
   font-weight: bold;
-  margin: 40px;
+  margin: 20px;
 }
 
 
 .boulder-facts{
-  font-family: 'Quicksand', sans-serif;
   text-align: center;
   font-size: 40px;
   font-weight: bold;
@@ -129,7 +122,6 @@ body{
 
 
 .holds-text{
-  font-family: 'Quicksand', sans-serif;
   text-align: center;
   font-size: 40px;
   font-weight: bold;

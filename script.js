@@ -8,16 +8,20 @@
 // Might be possible to flip without JS? Or use function still but follow 3D Flip Image with Text example in link.
 
 
-
-
-
-function findMyClimbingHold(){
+//Capture DOM elements//
 const ladderHold = document.querySelector(".ladderHold");
 const jugHold = document.querySelector(".jugHold");
 const crimpHold = document.querySelector(".crimpHold");
 const pinchHold = document.querySelector(".pinchHold");
 const pocketHold = document.querySelector(".pocketHold");
 const sloperHold = document.querySelector(".sloperHold");
+//Capture DOM elements//
+
+
+
+
+function findMyClimbingHold(){
+
 
 
 }
