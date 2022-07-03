@@ -1,4 +1,4 @@
-/*Global CSS  */
+/*global CSS  */
 *{
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
@@ -10,7 +10,7 @@ body{
   padding: 0;
   width:100%;
 }
-/*Global CSS  */
+/*global CSS  */
 
 
 
@@ -55,7 +55,7 @@ body{
 
 
 
-/* Index.html CSS  */
+/* index.html CSS  */
 #background-home{
   background-color: #878787;  
   background-image: url('.//imgs/homeclimb.jpg');
@@ -70,7 +70,8 @@ body{
   font-size: 90px;
 }
 
-/* Index.html CSS  */
+/* index.html CSS  */
+
 
 
 
@@ -148,3 +149,70 @@ body{
 /* holds.html CSS  */
 
 
+
+
+.image {
+    position: relative;
+    width: 800px;
+}
+
+.image__img {
+    display: block;
+    width: 100%;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+/* Attach as extra class to line: <div class="image__overlay"> in order to apply blue effect on hover  */
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+/* Attach as extra class to line: <div class="image__overlay"> in order to apply blue effect on hover  */
+
+
+
+/* Attach as extra class to line: <div class="image__overlay"> in order to apply background color effect on hover  */
+.image__overlay--primary {
+    background: #009578;
+}
+/* Attach as extra class to line: <div class="image__overlay"> in order to apply background color effect on hover  */
+
+
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
