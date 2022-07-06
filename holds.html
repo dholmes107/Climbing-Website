@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
+<!-- Details on resources used on holds.html  -->
+
+<!-- Title: Image Hover Text Overlay Effect with HTML & CSS - Web Design Tutorial    Author: dcode -->
+<!--Video Watched For Insight on How to Apply Text Overlay Effects: https://www.youtube.com/watch?v=exb2ab72Xhs -->
+
+<!--Information used to detail climbing holds taken from the following website article: -->
+<!--  https://skyaboveus.com/climbing-hiking/Indoor-Rock-Climbing-Holds -->
+<!--  https://sendedition.com/what-are-large-slopers-in-rock-climbing/ -->
+
+<!-- Details on resources used on holds.html  -->
+
+  
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -33,35 +46,137 @@
   <!-- Paragraph Text  -->
 
 
-  <!-- Climbing List Images 1-3   -->
-  <div>
-    <ul class="ul-holds">
-      <li class="list-holds"><img class="climb-hold-images" src=".//imgs/ladderhold.jpg"
-          alt="purple ladder climbing hold"></li>
-      <li class="list-holds"><img class="climb-hold-images" src=".//imgs/jughold.jpg" alt="green jug climbing hold">
-      </li>
-      <li class="list-holds"><img class="climb-hold-images" src=".//imgs/crimphold.jpg" alt="pink crimp climbing hold">
-      </li>
-    </ul>
-    <!-- Climbing List Images 1-3   -->
+
+  <!-- START Climbing List Images 1-3   -->
+
+  <ul class="ul-holds">
+
+
+    <!--   Ladder Hold -->
+    <li class="list-holds">
+      <div class="image">
+        <img class="image__img" src=".//imgs/ladderhold.jpg" alt="purple ladder climbing hold" />
+        <div class="image__overlay">
+          <div class="image__title">Ladder</div>
+          <p class="image__description">
+            This hold acts as a rung of a ladder. You can easily grip it to climb up, these holds are almost always
+            found on
+            beginner routes.
+          </p>
+        </div>
+      </div>
+    </li>
+    <!--   Ladder Hold -->
+
+
+    <!--   Green Jug Hold -->
+    <li class="list-holds">
+      <div class="image">
+        <img class="image__img" src=".//imgs/jughold.jpg" alt="green jug climbing hold">
+        <div class="image__overlay">
+          <div class="image__title">Jug</div>
+          <p class="image__description">
+            Jugs are every climber's best friend. The term basically encompasses every large, easy to grab hold. They
+            can be
+            held with the entire hand (and sometimes both) while requiring minimal energy.
+          </p>
+        </div>
+      </div>
+    </li>
+    <!--   Green Jug Hold -->
 
 
 
-    <!-- Climbing List Images 4-6   -->
-    <ul class="ul-holds">
-      <li class="list-holds"><img class="climb-hold-images" src=".//imgs/pinchhold.jpg" alt="green pinch climbing hold">
-      </li>
-      <li class="list-holds"><img class="climb-hold-images" src=".//imgs/pockethold.jpg"
-          alt="black pocket climbing hold"></li>
-      <li class="list-holds"><img class="climb-hold-images" src=".//imgs/sloperhold.jpg"
-          alt="purple sloper climbing hold"></li>
-    </ul>
-  </div>
-  <!-- Climbing List Images 4-6   -->
+    <!--   Pink Crimp Hold -->
 
+    <li class="list-holds">
+      <div class="image">
+        <img class="image__img" src=".//imgs/crimphold.jpg" alt="pink crimp climbing hold">
+        <div class="image__overlay">
+          <div class="image__title">Crimp</div>
+          <p class="image__description">
+            Crimps are generally small, thin climbing holds. These types of holds are seldom found on beginner routes
+            due to
+            a greater need for strength and solid technique.
+          </p>
+        </div>
+      </div>
+    </li>
+    <!--   Pink Crimp Hold -->
+
+  </ul>
+
+  <!-- END Climbing List Images 1-3   -->
+
+
+
+
+
+  <!-- START Climbing List Images 4-6   -->
+
+  <ul class="ul-holds">
+
+
+    <!--   Green Pinch Hold -->
+    <li class="list-holds">
+      <div class="image">
+        <img class="image__img" src=".//imgs/pinchhold.jpg" alt="green pinch climbing hold">
+        <div class="image__overlay">
+          <div class="image__title">Pinch</div>
+          <p class="image__description">
+            Pinches require using the thumb on the opposite side of the hold to create a strong squeezing force. Of all
+            the
+            climbing holds, pinches usually require the greatest amount of strength. Depending on the shape of the hold,
+            the
+            pinch could use between one and four fingers opposing the thumb.
+          </p>
+        </div>
+      </div>
+    </li>
+    <!--   Green Pinch Hold -->
+
+
+    <!--   Black Pocket Hold -->
+    <li class="list-holds">
+      <div class="image">
+        <img class="image__img" src=".//imgs/pockethold.jpg" alt="black pocket climbing hold">
+        <div class="image__overlay">
+          <div class="image__title">Crimp</div>
+          <p class="image__description">
+            Pockets are essentially round holes that allow you to hook between one and three fingers. They vary in depth
+            and
+            texture but generally do not have any sort of lip.
+          </p>
+        </div>
+      </div>
+    </li>
+    <!--   Black Pocket Hold -->
+
+
+    <!--  Purple Sloper Hold -->
+    <li class="list-holds">
+      <div class="image">
+        <img class="image__img" src=".//imgs/sloperhold.jpg" alt="purple sloper climbing hold">
+        <div class="image__overlay">
+          <div class="image__title">Sloper</div>
+          <p class="image__description">
+            Slopers are rounded climbing holds, usually big and blobby. They slope away from the wall without an edge
+            that
+            clearly indicates where to hold. These holds are usually more difficult to use and are only seen in more
+            challenging or advanced climbs.
+          </p>
+        </div>
+      </div>
+    </li>
+    <!--  Purple Sloper Hold -->
+
+  </ul>
+
+  <!-- END Climbing List Images 4-6   -->
 
 
   <script src="script.js"></script>
+
 </body>
 
 </html>
