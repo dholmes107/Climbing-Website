@@ -8,7 +8,7 @@
 body{
   margin: 0;
   padding: 0;
-  width:100%;
+  width: 100%;
 }
 /*global CSS  */
 
@@ -108,9 +108,10 @@ body{
 /* bouldering.html CSS  */
 
 
+
 /* climb.html CSS  */
 #background-climbs{
-  background-color: #878787;  
+  background-color: #FFD700;  
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -148,6 +149,46 @@ body{
 }
 
 
+.quote-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Bangers', cursive;
+  color: hotpink;
+  font-size: 50px;
+}
+
+
+.quote-left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Bangers', cursive;
+  color: hotpink;
+  font-size: 50px;
+}
+
+.quote-bottom-left{
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+  font-family: 'Bangers', cursive;
+  color: hotpink;
+  font-size: 75px;
+}
+
+.quote-bottom-right{
+   position:fixed;
+   left:0px;
+   bottom:75px;
+   height:30px;
+   width:100%;
+  font-family: 'Bangers', cursive;
+  color: hotpink;
+  font-size: 75px;
+}
 
 
 /* climb.html CSS  */
