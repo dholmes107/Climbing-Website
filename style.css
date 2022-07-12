@@ -122,8 +122,8 @@ body{
 .embed-youtube embed {
     border: 0;
     position: absolute;
-    top: 200px;
-    left: 550px;
+    top: 20%;
+    left: 26%;
     width: 50%;
     height: 50%;
 }
@@ -155,7 +155,7 @@ body{
   justify-content: center;
   font-family: 'Bangers', cursive;
   color: hotpink;
-  font-size: 50px;
+  font-size: 3.2em;
 }
 
 
@@ -165,30 +165,35 @@ body{
   justify-content: center;
   font-family: 'Bangers', cursive;
   color: hotpink;
-  font-size: 50px;
+  font-size: 3.2em;
 }
+
 
 .quote-bottom-left{
    position:fixed;
-   left:0px;
-   bottom:0px;
-   height:30px;
+   left:26%;
+   bottom:2%;
+   height:3%;
    width:100%;
   font-family: 'Bangers', cursive;
   color: hotpink;
-  font-size: 75px;
+  font-size: 6.2em;
 }
 
 .quote-bottom-right{
    position:fixed;
-   left:0px;
-   bottom:75px;
-   height:30px;
+   left:26%;
+   bottom: 13%;
+   height: 3%;
    width:100%;
   font-family: 'Bangers', cursive;
   color: hotpink;
-  font-size: 75px;
+  font-size: 6.125em;
 }
+
+
+
+
 
 
 /* climb.html CSS  */
@@ -244,7 +249,7 @@ body{
 /*Climbing Images 1-6 Hover Animation  */
 .image {
     position: relative;
-    width: 800px;
+    width: 100%;
 }
 
 .image__img {
