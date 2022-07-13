@@ -30,6 +30,8 @@ Take note that there are also comments throughout the .html and .css files to de
 
 13. Used relative and flex positioning to place <img> objects on holds.html page.
 
-14. Added old 80's slang words to help older users understand website wording.
+14. Added 80's slang words to help older users understand website wording.
+
+15. Added a pointer cursor effect when hovering over buttons. As it is customary to change the cursor to a "pointer" style when you hover over links.
 
 

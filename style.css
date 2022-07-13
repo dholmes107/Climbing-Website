@@ -103,6 +103,7 @@ body{
   font-size: 40px;
   font-weight: bold;
   margin: 20px;
+  cursor: pointer;
 }
 
 /* bouldering.html CSS  */
@@ -190,12 +191,6 @@ body{
   color: hotpink;
   font-size: 6.125em;
 }
-
-
-
-
-
-
 /* climb.html CSS  */
 
 
